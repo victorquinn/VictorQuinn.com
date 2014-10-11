@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@import url("http://fonts.googleapis.com/css?family=Alegreya");
+@import url("http://fonts.googleapis.com/css?family=Open Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5203,6 +5203,7 @@ button.close {
 
 /* Space out content a bit */
 body {
+  font-family: "Helvetica Neue", Helvetica, "Open Sans", sans-serif;
   display: compact;
   padding-top: 0px;
   padding-bottom: 20px; }
@@ -5216,20 +5217,15 @@ body {
 
 /* Custom page header */
 .header {
-  height: 280px;
   /* Make the masthead heading the same height as the navigation */ }
   .header h1 {
-    font-family: "Alegreya", serif;
-    color: #fff;
-    font-size: 44px;
-    text-shadow: 1px 1px 5px #000; }
+    color: #333333;
+    font-size: 54px;
+    text-shadow: none; }
   .header h3 {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 19px; }
-
-h2 {
-  font-family: "Alegreya", serif; }
 
 /* Custom page footer */
 .footer {
@@ -5262,6 +5258,34 @@ h2 {
 .self-image {
   padding: 0px; }
 
+ul.inline {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em; }
+
+ul.inline li {
+  display: inline;
+  padding: 0px 0px 0px 0px; }
+
+ul.inline li:after {
+  content: "\020 \2605";
+  font-size: 12px;
+  vertical-align: middle; }
+
+ul.inline li:last-child:after {
+  content: " "; }
+
+ul.list li {
+  list-style-type: none; }
+
+ul.list li:before {
+  content: "\0BB \020"; }
+
+.contactheader {
+  color: #fff;
+  background-color: #428bca; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   body {
@@ -5286,9 +5310,7 @@ h2 {
     margin-bottom: 0px;
     height: 0px; }
     .header h1 {
-      color: #333333;
-      font-size: 56px;
-      text-shadow: none; }
+      font-size: 56px; }
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {

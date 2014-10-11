@@ -4,7 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
-@import url("http://fonts.googleapis.com/css?family=Alegreya");
+@import url("http://fonts.googleapis.com/css?family=Open Sans");
 
 .browsehappy {
     margin: 0.2em 0;
@@ -15,6 +15,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 /* Space out content a bit */
 body {
+    font-family: "Helvetica Neue", Helvetica, "Open Sans", sans-serif;
     display: compact;
     padding-top: 0px;
     padding-bottom: 20px;
@@ -30,12 +31,10 @@ body {
 
 /* Custom page header */
 .header {
-    height: 280px;
     h1 {
-        font-family: "Alegreya", serif;
-        color: #fff;
-        font-size: 44px;
-        text-shadow: 1px 1px 5px #000;
+        color: rgb(51, 51, 51);
+        font-size: 54px;
+        text-shadow: none;
     }
 
     /* Make the masthead heading the same height as the navigation */
@@ -44,10 +43,6 @@ body {
         margin-bottom: 0;
         padding-bottom: 19px;
     }
-}
-
-h2 {
-    font-family: "Alegreya", serif;
 }
 
 /* Custom page footer */
@@ -90,6 +85,41 @@ h2 {
     padding: 0px;
 }
 
+ul.inline {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul.inline li {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+}
+
+ul.inline li:after {
+    content: "\020 \2605";
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+ul.inline li:last-child:after {
+    content: " ";
+}
+
+ul.list li {
+    list-style-type: none;
+}
+
+ul.list li:before {
+    content: "\0BB \020";
+}
+
+.contactheader {
+    color: #fff;
+    background-color: #428bca;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     body {
@@ -116,9 +146,7 @@ h2 {
         margin-bottom: 0px;
         height: 0px;
         h1 {
-            color: rgb(51, 51, 51);
             font-size: 56px;
-            text-shadow: none;
         }
     }
 
