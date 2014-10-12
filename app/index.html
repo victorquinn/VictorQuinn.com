@@ -78,10 +78,16 @@
                     </div>
                   </div>
                   <div class="row">
-                    <h2>Employer</h2>
-                    <p>I am currently working for <a href="https://socialradar.com">SocialRadar</a>.</p>
-                    <p>We are building a mobile application for iOS, Android, Google Glass, and more which gives you real-time information on the people around you.</p>
-                    <p>In my capacity, I am primarily building the backend API which receives data from and feeds data to our mobile applications.</p>
+                    <h2>Employement</h2>
+                    <p>I am currently working for DC-based startup <a href="https://socialradar.com">SocialRadar</a>.</p>
+                    <p>We are building mobile applications for <a href="http://appstore.com/socialradar">iOS</a>, <a href="https://play.google.com/store/apps/details?id=com.socialradar.app">Android</a>, <a href="https://glass.google.com/u/0/glassware/6495196315824151224">Google Glass</a>, and more which can give you real-time information on the people around you.</p>
+                    <p>In order to power that app, we have built some incredible backend technology around geolocation and social media which can marry the two to provide location information in the app on friends, coworkers, and others that aren't even using SocialRadar but share their location on other networks (in addition to providing location information for friends using the app of course).</p>
+                    <p>In my capacity, I am primarily building this backend system whch provides an API that receives data from and feeds data to our mobile applications so they can deliver a consistent experience across all of the platforms we support.
+                    </p>
+                    <p>Due to the nature of the devices sending a large volume of data, location and otherwise, to our servers, we have built the API to scale with massive concurrency using <a href="http://nodejs.org">Node.js</a>.</p>
+                    <p>Our backend consists of a half dozen Node.js apps which work in concert to deliver the SocialRadar experience to the mobile devices. In addition to the API and our location search, this backend also includes other processes such as sending push notifications to the devices, sending emails to users, performing background processing of social media feeds, handling other big data, reporting and analytics, debugging, and dozens of other tasks.</p>
+                    <p>In addition to using some of the usual suspects in terms of open source technology, we are constantly evaluating alternatives and thinking of better ways to refine our current processes. A big part of my job is researching and evaluating these alternatives and pulling them into our stack, where appropriate.</p>
+                    <p>In some cases this means writing something new entirely which we do our best to contribute back to the open source community.</p>
                   </div>
                 </div>
               </div>
@@ -186,6 +192,6 @@
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
-</body>
+    </body>
 </html>
 
