@@ -38,10 +38,10 @@
                 </div>
                 <div class="row iam">
                   <div class="col-lg-12 col-sm-12 col-xs-12 content">
-                    <p class="lead">I am a programmer, author, technology leader, legal scholar, writer.</p>
-                    <p class="lead">I have engineered software in education, politics, and mobile applications.</p>
+                    <p class="lead">I am a programmer, author, technology leader, legal scholar, writer, husband, and more.</p>
+                    <p class="lead">I have engineered software in the education, political, and location-based spaces.</p>
                     <p class="lead">I have been formally educated in computer science, physics, and intellectual property law.</p>
-                    <p class="lead">I write regularly and have authored a book.</p>
+                    <p class="lead">I write regularly and have <a href="#book">authored a book.</a></p>
                     <p class="lead">I am always looking for new challenges, new problems to solve, new things to learn.</p>
                   </div>
                 </div>
@@ -57,6 +57,22 @@
             <div class="container-fluid" id="currentcontainer">
               <div class="row">
                 <div class="container contentcontainer">
+                  <div class="row">
+                    <h2>Recent Updates</h2>
+                    <h3 id="book">My first book</h3>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-3 col-xs-12">
+                          <a href="http://vq.io/1sqYQwu"><img src="../images/GettingStartedwithtmux.png" height=200 /></a>
+                        </div>
+                        <div class="col-lg-9 col-sm-9 col-xs-12">
+                          <p>I completed work on my first book which was recently published!</p>
+                          <p>Titled <a href="http://vq.io/1sqYQwu">Getting Started with tmux</a>, this book is a getting started book for <a href="https://en.wikipedia.org/wiki/Tmux">tmux</a>, a command line program which can allow a single terminal to act as many. This book is targeted at anyone developer, devops engineer, or other professional who spends any amount of time in a terminal.</p>
+                          <p>
+                            Bit of backstory, I got contacted by an acquisition editor from <a href="https://www.packtpub.com">Packt Publishing</a> who had read a <a href="http://blog.victorquinn.com/tmux-tutorial">tutorial on tmux</a> I had written back in 2011. She wanted to know if I was interested in expanding my tutorial into a book and I emphatically said YES! The writing and editorial process took place in bursts over the next 6 months or so and now it is published!
+                          </p>
+                        </div>
+                  </div>
                   <div class="row">
                     <h2>Location</h2>
                     <p>I currently live in Northern Virginia and work in Washington, D.C.</p>
@@ -78,16 +94,19 @@
                     </div>
                   </div>
                   <div class="row">
-                    <h2>Employement</h2>
+                    <h2>Employment</h2>
                     <p>I am currently working for DC-based startup <a href="https://socialradar.com">SocialRadar</a>.</p>
                     <p>We are building mobile applications for <a href="http://appstore.com/socialradar">iOS</a>, <a href="https://play.google.com/store/apps/details?id=com.socialradar.app">Android</a>, <a href="https://glass.google.com/u/0/glassware/6495196315824151224">Google Glass</a>, and more which can give you real-time information on the people around you.</p>
-                    <p>In order to power that app, we have built some incredible backend technology around geolocation and social media which can marry the two to provide location information in the app on friends, coworkers, and others that aren't even using SocialRadar but share their location on other networks (in addition to providing location information for friends using the app of course).</p>
-                    <p>In my capacity, I am primarily building this backend system whch provides an API that receives data from and feeds data to our mobile applications so they can deliver a consistent experience across all of the platforms we support.
-                    </p>
-                    <p>Due to the nature of the devices sending a large volume of data, location and otherwise, to our servers, we have built the API to scale with massive concurrency using <a href="http://nodejs.org">Node.js</a>.</p>
-                    <p>Our backend consists of a half dozen Node.js apps which work in concert to deliver the SocialRadar experience to the mobile devices. In addition to the API and our location search, this backend also includes other processes such as sending push notifications to the devices, sending emails to users, performing background processing of social media feeds, handling other big data, reporting and analytics, debugging, and dozens of other tasks.</p>
-                    <p>In addition to using some of the usual suspects in terms of open source technology, we are constantly evaluating alternatives and thinking of better ways to refine our current processes. A big part of my job is researching and evaluating these alternatives and pulling them into our stack, where appropriate.</p>
-                    <p>In some cases this means writing something new entirely which we do our best to contribute back to the open source community.</p>
+                    <p><a href="#" onclick="$('#employmentmore').toggle(); return false;">More...</a></p>
+                    <div id="employmentmore">
+                      <p>In order to power that app, we have built some incredible backend technology around geolocation and social media which can marry the two to provide location information in the app on friends, coworkers, and others that aren't even using SocialRadar but share their location on other networks (in addition to providing location information for friends using the app of course).</p>
+                      <p>In my capacity, I am primarily building this backend system whch provides an API that receives data from and feeds data to our mobile applications so they can deliver a consistent experience across all of the platforms we support.
+                      </p>
+                      <p>Due to the nature of the devices sending a large volume of data, location and otherwise, to our servers, we have built the API to scale with massive concurrency and low latency using <a href="http://nodejs.org">Node.js</a>.</p>
+                      <p>Our backend consists of a half dozen Node.js apps which work in concert to deliver the SocialRadar experience to the mobile devices. In addition to the API and our location search, this backend also includes other processes such as sending push notifications to the devices, sending emails to users, performing background processing of social media feeds, handling other big data, reporting and analytics, debugging, and dozens of other tasks.</p>
+                      <p>In addition to using some of the usual suspects in terms of open source technology, we are constantly evaluating alternatives and thinking of better ways to refine our current processes. A big part of my job is researching and evaluating these alternatives and pulling them into our stack, where appropriate.</p>
+                      <p>In some cases this means writing something new entirely which we do our best to contribute back to the open source community.</p>
+                    </div>
                   </div>
                 </div>
               </div>

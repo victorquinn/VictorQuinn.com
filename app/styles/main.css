@@ -5311,6 +5311,9 @@ ul.list li:before {
   background-image: url("../images/VictorMotorcycle.jpg");
   height: 400px; }
 
+#employmentmore {
+  display: none; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   body {
