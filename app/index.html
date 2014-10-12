@@ -51,13 +51,49 @@
         </div>
         <div class="container-fluid maincontent text-center main">
           <div class="row">
-            <div class="container-fluid">
-              <div class="row contactheader">
-                <h1>Contact</h2>
+            <div class="row sectionheader" id="currentheader">
+              <h1>Current</h1>
+            </div>
+            <div class="container-fluid" id="currentcontainer">
+              <div class="row">
+                <div class="container contentcontainer">
+                  <div class="row">
+                    <h2>Location</h2>
+                    <p>I currently live in Northern Virginia and work in Washington, D.C.</p>
+                    <p>I commute in daily on <a href="#" data-toggle="modal" data-target="#myMotorcycle">my motorcycle</a> or take the Metro, depending on the weather.</p>
+                    <div class="modal fade" id="myMotorcycle" tabindex="-1" role="dialog" aria-labelledby="myMotorcycle" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myMotorcycleLabel">My Motorcycle</h4>
+                          </div>
+                          <div class="modal-body motorcycleimage">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <h2>Employer</h2>
+                    <p>I am currently working for <a href="https://socialradar.com">SocialRadar</a>.</p>
+                    <p>We are building a mobile application for iOS, Android, Google Glass, and more which gives you real-time information on the people around you.</p>
+                    <p>In my capacity, I am primarily building the backend API which receives data from and feeds data to our mobile applications.</p>
+                  </div>
+                </div>
               </div>
-              <div class="row follow">
-                <div class="col-lg-12 col-sm-12 col-xs-12 content">
-                  <h2>Follow Me</h3>
+            </div>
+            <div class="row">
+              <div class="container-fluid">
+                <div class="row contactheader sectionheader">
+                  <h1>Contact</h1>
+                </div>
+                <div class="row follow">
+                  <div class="col-lg-12 col-sm-12 col-xs-12 content">
+                    <h2>Follow Me</h2>
                   <ul class="inline">
                     <li><a href="https://angel.co/victorquinn">angel</a></li>
                     <li><a href="http://on.beatsmusic.com/users/187247142673448960">beats</a></li>
@@ -74,7 +110,7 @@
               </div>
               <div class="row contact">
                 <div class="col-lg-12 col-sm-12 col-xs-12 content">
-                  <h2>Contact Me</h3>
+                  <h2>Reach out to Me</h2>
                   <ul class="inline">
                     <li><a href="" id="em"></a></li>
                     <li><a href="" id="ph"></a></li>
@@ -83,7 +119,7 @@
               </div>
               <div class="row identity">
                 <div class="col-lg-12 col-xs-12 content">
-                  <h2>Identify Me</h3>
+                  <h2>Identify Me</h2>
                   <ul class="inline">
                     <li><a href="http://keybase.io/victorquinn">keybase</a></li>
                     <li><a href="https://onename.io/victor">onename</a></li>
@@ -109,6 +145,7 @@
                 </ul>
               </div>
             </div>
+            </div>
           </div>
           <div class="footer text-center">
             <div class="col-lg-12 col-sm-12 col-xs-12 content">
@@ -127,6 +164,7 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/stacks/jquery.stacks.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -150,3 +188,4 @@
         <!-- endbuild -->
 </body>
 </html>
+

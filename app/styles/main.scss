@@ -115,9 +115,41 @@ ul.list li:before {
     content: "\0BB \020";
 }
 
-.contactheader {
+.maincontent {
+    position: relative;
+}
+
+.sectionheader {
     color: #fff;
+}
+
+#currentheader {
+    background-color: #5cb85c;
+}
+
+.contactheader {
     background-color: #428bca;
+}
+
+.contentcontainer {
+    padding: 15px 50px;
+}
+
+.sectionheader.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.sectionheader.absolute {
+    position: absolute;
+    bottom: 0;
+}
+
+.motorcycleimage {
+    background-image: url("../images/VictorMotorcycle.jpg");
+    height: 400px;
 }
 
 /* Responsive: Portrait tablets and up */
