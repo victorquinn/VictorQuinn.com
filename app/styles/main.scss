@@ -127,7 +127,11 @@ ul.list li:before {
     background-color: #5cb85c;
 }
 
-.contactheader {
+#projectsheader {
+    background-color: #d9534f;
+}
+
+#contactheader {
     background-color: #428bca;
 }
 
@@ -152,7 +156,12 @@ ul.list li:before {
     height: 400px;
 }
 
-#employmentmore {
+pre {
+    text-align: left;
+    padding: 0px 50px;
+}
+
+#chancemore, #employmentmore {
     display: none;
 }
 

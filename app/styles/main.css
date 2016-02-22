@@ -5291,7 +5291,10 @@ ul.list li:before {
 #currentheader {
   background-color: #5cb85c; }
 
-.contactheader {
+#projectsheader {
+  background-color: #d9534f; }
+
+#contactheader {
   background-color: #428bca; }
 
 .contentcontainer {
@@ -5311,7 +5314,11 @@ ul.list li:before {
   background-image: url("../images/VictorMotorcycle.jpg");
   height: 400px; }
 
-#employmentmore {
+pre {
+  text-align: left;
+  padding: 0px 50px; }
+
+#chancemore, #employmentmore {
   display: none; }
 
 /* Responsive: Portrait tablets and up */

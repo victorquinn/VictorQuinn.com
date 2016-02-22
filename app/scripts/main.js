@@ -11,19 +11,17 @@ ph.href = 'tel:14136872928';
 
 $(function() {
     // Add smooth scrolling
-    $("a[href^='#']").on('click', function(e) {
+    $('a[href^="#"]').on('click', function(e) {
 
         // prevent default anchor click behavior
         e.preventDefault();
 
         // store hash
         var hash = this.hash;
-        console.log("click handler called");
         // animate
         $('html, body').animate({
             scrollTop: $(this.hash).offset().top - 85
         }, 300, function(){
-            console.log("animate stuff called");
             // when done, add hash to url
             // (default click behaviour)
             window.location.hash = hash;

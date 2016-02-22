@@ -24,6 +24,10 @@ gulp.task('scripts', function () {
         .pipe($.size());
 });
 
+gulp.task('clear', function () {
+  $.cache.clearAll();
+});
+
 gulp.task('html', ['styles', 'scripts'], function () {
     var jsFilter = $.filter('**/*.js');
     var cssFilter = $.filter('**/*.css');
@@ -44,6 +48,7 @@ gulp.task('html', ['styles', 'scripts'], function () {
 
 gulp.task('images', function () {
     return gulp.src('app/images/**/*')
+        .pipe($.filter('*.{jpg,jpeg,svg,gif,png}'))
         .pipe($.cache($.imagemin({
             optimizationLevel: 3,
             progressive: true,
