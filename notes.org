@@ -1,0 +1,44 @@
+VictorQuinn.com Redesign
+======================
+
+* TODO Configuration [0%]
+** IN PROGRESS Configure Hugo
+* TODO Design [0%]
+** TODO Finish
+** TODO Create cards for [0%]
+*** TODO Employment
+**** TODO SocialRadar
+**** TODO NGP VAN
+**** TODO Amherst College
+**** TODO UMass
+*** TODO Open Source
+**** TODO Chance
+**** TODO Dynasty
+**** TODO Others
+*** TODO Education
+**** TODO UMass
+**** TODO WNEU
+*** TODO Writing
+**** TODO Blog
+**** TODO Getting Started with tmux
+**** TODO
+*** TODO Miscellaneous
+**** TODO USPTO
+**** TODO Eagle Scout
+**** TODO About
+       I type with the Dvorak keyboard layout on a Kinesis Advantage keyboard while using Emacs as my 
+       primary tool to write code. I remap Control to Caps Lock to help me fly and I’m an efficiency junkie
+       who is always looking for ways to improve my workflow. I’m passionate about a great many things in
+       the world of computing, but a few of my favorites are databases, architecture, and clean API design.
+* TODO Miscellaneous
+** TODO Keybase
+** TODO OneName
+** TODO Crafted with ♥ by Victor Quinn
+** TODO Email
+** TODO Phone number?
+** TODO Resume
+* TODO Possibly link to older versions?
+* TODO Deployment [0%]
+** TODO Deploy with Stout
+   http://stout.is
+** TODO Deploy pre-release version to next.victorquinn.com
