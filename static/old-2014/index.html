@@ -1,0 +1,209 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Victor Quinn</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container-fluid main">
+      <div class="header">
+        <div class="col-lg-6 col-sm-6 col-xs-12 self-image">
+          <img src="images/Victor.jpg" id="victorquinn-image" />
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-12">
+          <div class="container-fluid">
+            <div class="row header">
+              <div class="col-lg-12 col-sm-12 col-xs-12 content text-center">
+                <h1>Victor Quinn</h1>
+              </div>
+            </div>
+            <div class="row iam">
+              <div class="col-lg-12 col-sm-12 col-xs-12 content">
+                <p class="lead">I am a programmer, author, technology leader, legal scholar, writer, husband, and more.</p>
+                <p class="lead">I have engineered software in the education, political, and location-based spaces.</p>
+                <p class="lead">I have been formally educated in computer science, physics, and intellectual property law.</p>
+                <p class="lead">I write regularly and have <a href="#book">authored a book.</a></p>
+                <p class="lead">I am always looking for new challenges, new problems to solve, new things to learn.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid maincontent text-center main">
+      <div class="row">
+        <div class="row sectionheader" id="currentheader">
+          <h1>Current</h1>
+        </div>
+        <div class="container-fluid" id="currentcontainer">
+          <div class="row">
+            <div class="container contentcontainer">
+              <div class="row">
+                <h2>Recent Updates</h2>
+                <h3 id="book">My first book</h3>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-3 col-xs-12">
+                      <a href="http://vq.io/1sqYQwu"><img src="images/GettingStartedwithtmux.png" height=200 /></a>
+                    </div>
+                    <div class="col-lg-9 col-sm-9 col-xs-12">
+                      <p>I completed work on my first book which was recently published!</p>
+                      <p>Titled <a href="http://vq.io/1sqYQwu">Getting Started with tmux</a>, this book is a getting started book for <a href="https://en.wikipedia.org/wiki/Tmux">tmux</a>, a command line program which can allow a single terminal to act as many. This book is targeted at anyone who is a developer, devops engineer, or other professional who spends any amount of time in a terminal.</p>
+                      <p>
+                        Bit of backstory, I got contacted by an acquisition editor from <a href="https://www.packtpub.com">Packt Publishing</a> who had read a <a href="http://blog.victorquinn.com/tmux-tutorial">tutorial on tmux</a> I had written back in 2011. She wanted to know if I was interested in expanding my tutorial into a book and I emphatically said YES! The writing and editorial process took place in bursts over the next 6 months or so and now it is published!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <h2>Location</h2>
+                  <p>I currently live in Northern Virginia and work in Washington, D.C.</p>
+                  <p>I commute in daily on <a href="#" data-toggle="modal" data-target="#myMotorcycle">my motorcycle</a> or take the Metro, depending on the weather.</p>
+                  <div class="modal fade" id="myMotorcycle" tabindex="-1" role="dialog" aria-labelledby="myMotorcycle" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="myMotorcycleLabel">My Motorcycle</h4>
+                        </div>
+                        <div class="modal-body motorcycleimage">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <h2>Employment</h2>
+                  <p>I am currently working for DC-based startup <a href="https://socialradar.com">SocialRadar</a>.</p>
+                  <p>We are building mobile applications for <a href="http://appstore.com/socialradar">iOS</a>, <a href="https://play.google.com/store/apps/details?id=com.socialradar.app">Android</a>, <a href="https://glass.google.com/u/0/glassware/6495196315824151224">Google Glass</a>, and more which can give you real-time information on the people around you.</p>
+                  <p><a href="#" onclick="$('#employmentmore').toggle(); return false;">more...</a></p>
+                  <div id="employmentmore">
+                    <p>In order to power that app, we have built some incredible backend technology around geolocation and social media which can marry the two to provide location information in the app on friends, coworkers, and others that aren't even using SocialRadar but share their location on other networks (in addition to providing location information for friends using the app of course).</p>
+                    <p>In my capacity, I am primarily building this backend system whch provides an API that receives data from and feeds data to our mobile applications so they can deliver a consistent experience across all of the platforms we support.
+                    </p>
+                    <p>Due to the nature of the devices sending a large volume of data, location and otherwise, to our servers, we have built the API to scale with massive concurrency and low latency using <a href="http://nodejs.org">Node.js</a>.</p>
+                    <p>Our backend consists of a half dozen Node.js apps which work in concert to deliver the SocialRadar experience to the mobile devices. In addition to the API and our location search, this backend also includes other processes such as sending push notifications to the devices, sending emails to users, performing background processing of social media feeds, handling other big data, reporting and analytics, debugging, and dozens of other tasks.</p>
+                    <p>In addition to using some of the usual suspects in terms of open source technology, we are constantly evaluating alternatives and thinking of better ways to refine our current processes. A big part of my job is researching and evaluating these alternatives and pulling them into our stack, where appropriate.</p>
+                    <p>In some cases this means writing something new entirely which we do our best to contribute back to the open source community.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container-fluid">
+              <div id="contactheader" class="row sectionheader">
+                <h1>Contact</h1>
+              </div>
+              <div class="row follow">
+                <div class="col-lg-12 col-sm-12 col-xs-12 content">
+                  <h2>Follow Me</h2>
+                  <ul class="inline">
+                    <li><a href="https://angel.co/victorquinn">angel</a></li>
+                    <li><a href="http://on.beatsmusic.com/users/187247142673448960">beats</a></li>
+                    <li><a href="https://coderwall.com/victorquinn">coderwall</a></li>
+                    <li><a href="https://ello.co/victorquinn">ello</a></li>
+                    <li><a href="http://facebook.com/victorjquinn">facebook</a></li>
+                    <li><a href="https://github.com/victorquinn">github</a></li>
+                    <li><a href="http://instagram.com/victorjquinn">instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/victorquinn">linkedin</a></li>
+                    <li><a href="http://medium.com/@victorquinn">medium</a></li>
+                    <li><a href="http://twitter.com/victorquinn">twitter</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row contact">
+                <div class="col-lg-12 col-sm-12 col-xs-12 content">
+                  <h2>Reach out to Me</h2>
+                  <ul class="inline">
+                    <li><a href="" id="em"></a></li>
+                    <li><a href="" id="ph"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row identity">
+                <div class="col-lg-12 col-xs-12 content">
+                  <h2>Identify Me</h2>
+                  <ul class="inline">
+                    <li><a href="http://keybase.io/victorquinn">keybase</a></li>
+                    <li><a href="https://onename.io/victor">onename</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container-fluid">
+            <div id="projectsheader" class="row sectionheader">
+              <h1>Projects</h1>
+            </div>
+            <div class="row follow">
+            </div>
+            <div class="row opensource contentcontainer">
+              <div class="col-lg-12 col-xs-12 content">
+                <h2>My Open Source Libraries</h2>
+                <h3>Chance</h3>
+                <ul class="inline">
+                  <li><a href="http://chancejs.com">homepage</a></li>
+                  <li><a href="https://github.com/victorquinn/chancejs">github</a></li>
+                  <li><a href="https://npmjs.org/package/chance">npm</a></li>
+                </ul>
+                <p>Chance is a minimalist library for generating anything random in JavaScript.</p>
+                <p><a href="#" onclick="$('#chancemore').toggle(); return false;">more...</a></p>
+                <div id="chancemore">
+                  <p>I started this project when I was writing unit tests and noticed myself writing a bunch of utility functions to do things like generate a number, generate a string, and so on.</p>
+                  <p>It seemed silly that me and any developer wanting to pick a random number from 1-100 had to write a bunch of nonsense like <pre>Math.ceil(Math.random()*100)</pre> just to generate a simple random number.</p>
+                  <p>Generating a random string was worse, for a string, it was something like:
+                    <pre>
+function randomString(length) {
+    var str = "";
+    var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for(var i = 0; i < length; i++) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    return text;
+}</pre>
+                    It seemed silly that me and any developer would have to jump through all those hoops just to generate a random number or string, so I started building built Chance so they don't have to.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer text-center">
+          <div class="col-lg-12 col-sm-12 col-xs-12 content">
+            <p>Crafted with ♥ in Washington, DC by Victor Quinn</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
+                                                                                                                                                                                                                                                                                                                                                                                                                                   window.analytics.load("026gp4dbpu");
+                                                                                                                                                                                                                                                                                                                                                                                                                                   window.analytics.page();
+                                                                                                                                                                                                                                                                                                                                                                                                                                   </script>
+
+    <script src="scripts/vendor.js"></script>
+
+    <script src="scripts/plugins.js"></script>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -74,5 +74,4 @@ flycheck_*.el
 # server auth directory
 /server/
 
-
-#!! ERROR: nodejs is undefined. Use list command to see defined gitignore types !!#
+public

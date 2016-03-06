@@ -1,0 +1,22 @@
+baseurl = "https://victorquinn.com/"
+languageCode = "en-us"
+title = "Victor Quinn"
+author = "Victor Quinn <mail@victorquinn.com>"
+
+theme = "sobriquet"
+
+# Theme Specific Configuration
+[params]
+    profile_img = "VictorQuinn.png"
+    author = "Victor Quinn"
+    headline = "Leader of Engineers."
+    summary = "Specializing in leading software engineers to build scalable backends."
+    segment = "026gp4dbpu"
+
+    # Social media
+    facebook = "victorjquinn"
+    github = "victorquinn"
+    google_plus = "+victorquinn"
+    linkedin = "victorquinn"
+    reddit = "victorquinn"  
+    twitter = "victorquinn"

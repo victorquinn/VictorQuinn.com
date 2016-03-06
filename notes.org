@@ -1,0 +1,79 @@
+VictorQuinn.com Redesign
+======================
+
+* TODO Configuration [0%]
+** IN PROGRESS Configure Hugo
+** IN PROGRESS Create Sobriquet Hugo Theme [50%]
+*** DONE Port over existing static content to theme
+    CLOSED: [2016-03-06 Sun 11:52]
+    - CLOSING NOTE [2016-03-06 Sun 11:52]
+*** DONE Ensure everything is properly configurable
+    CLOSED: [2016-03-06 Sun 11:52]
+    - CLOSING NOTE [2016-03-06 Sun 11:52]
+*** TODO Add content types for each type of thing
+**** TODO Make sure they render properly on homepage as cards
+***** TODO Use the front matter to specify image, summary text
+**** TODO Make sure they each have their own page
+**** TODO Employment, Open Source, etc.
+**** TODO Figure out how to make them orderable
+* TODO Design [0%]
+** TODO Finish
+** TODO Create cards for [40%]
+*** TODO Employment
+**** DONE SocialRadar
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE NGP VAN
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Amherst College
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE UMass
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** DONE Open Source
+    CLOSED: [2016-03-06 Sun 16:56]
+    - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Chance
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Dynasty
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Others
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** DONE Education
+    CLOSED: [2016-03-06 Sun 16:56]
+    - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE UMass
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE WNEU
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** IN PROGRESS Writing
+**** TODO Blog
+**** TODO Getting Started with tmux
+**** TODO
+*** TODO Miscellaneous
+**** TODO USPTO
+**** TODO Eagle Scout
+**** TODO About
+       I type with the Dvorak keyboard layout on a Kinesis Advantage keyboard while using Emacs as my 
+       primary tool to write code. I remap Control to Caps Lock to help me fly and I’m an efficiency junkie
+       who is always looking for ways to improve my workflow. I’m passionate about a great many things in
+       the world of computing, but a few of my favorites are databases, architecture, and clean API design.
+* TODO Miscellaneous
+** TODO Keybase
+** TODO OneName
+** TODO Crafted with ♥ by Victor Quinn
+** TODO Email
+** TODO Phone number?
+** TODO Resume
+* TODO Possibly link to older versions?
+* TODO Deployment [0%]
+** TODO Deploy with Stout
+   http://stout.is
+** TODO Deploy pre-release version to next.victorquinn.com
