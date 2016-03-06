@@ -3,6 +3,19 @@ VictorQuinn.com Redesign
 
 * TODO Configuration [0%]
 ** IN PROGRESS Configure Hugo
+** IN PROGRESS Create Sobriquet Hugo Theme [50%]
+*** DONE Port over existing static content to theme
+    CLOSED: [2016-03-06 Sun 11:52]
+    - CLOSING NOTE [2016-03-06 Sun 11:52]
+*** DONE Ensure everything is properly configurable
+    CLOSED: [2016-03-06 Sun 11:52]
+    - CLOSING NOTE [2016-03-06 Sun 11:52]
+*** TODO Add content types for each type of thing
+**** TODO Make sure they render properly on homepage as cards
+***** TODO Use the front matter to specify image, summary text
+**** TODO Make sure they each have their own page
+**** TODO Employment, Open Source, etc.
+**** TODO Figure out how to make them orderable
 * TODO Design [0%]
 ** TODO Finish
 ** TODO Create cards for [0%]
