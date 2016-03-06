@@ -1,0 +1,3 @@
+[submodule "themes/sobriquet"]
+	path = themes/sobriquet
+	url = git@github.com:victorquinn/sobriquet
