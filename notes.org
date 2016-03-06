@@ -18,20 +18,42 @@ VictorQuinn.com Redesign
 **** TODO Figure out how to make them orderable
 * TODO Design [0%]
 ** TODO Finish
-** TODO Create cards for [0%]
+** TODO Create cards for [40%]
 *** TODO Employment
-**** TODO SocialRadar
-**** TODO NGP VAN
-**** TODO Amherst College
-**** TODO UMass
-*** TODO Open Source
-**** TODO Chance
-**** TODO Dynasty
-**** TODO Others
-*** TODO Education
-**** TODO UMass
-**** TODO WNEU
-*** TODO Writing
+**** DONE SocialRadar
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE NGP VAN
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Amherst College
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE UMass
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** DONE Open Source
+    CLOSED: [2016-03-06 Sun 16:56]
+    - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Chance
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Dynasty
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE Others
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** DONE Education
+    CLOSED: [2016-03-06 Sun 16:56]
+    - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE UMass
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+**** DONE WNEU
+     CLOSED: [2016-03-06 Sun 16:56]
+     - CLOSING NOTE [2016-03-06 Sun 16:56]
+*** IN PROGRESS Writing
 **** TODO Blog
 **** TODO Getting Started with tmux
 **** TODO
