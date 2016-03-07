@@ -11,6 +11,7 @@ theme = "sobriquet"
     author = "Victor Quinn"
     headline = "Leader of Engineers."
     summary = "Specializing in leading software engineers to build scalable backends."
+    resume = "VictorQuinnResume.pdf"
     segment = "026gp4dbpu"
 
     # Social media

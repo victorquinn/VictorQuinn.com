@@ -18,7 +18,7 @@ VictorQuinn.com Redesign
 **** TODO Figure out how to make them orderable
 * TODO Design [0%]
 ** TODO Finish
-** TODO Create cards for [40%]
+** TODO Create cards for [60%]
 *** TODO Employment
 **** DONE SocialRadar
      CLOSED: [2016-03-06 Sun 16:56]
@@ -53,10 +53,15 @@ VictorQuinn.com Redesign
 **** DONE WNEU
      CLOSED: [2016-03-06 Sun 16:56]
      - CLOSING NOTE [2016-03-06 Sun 16:56]
-*** IN PROGRESS Writing
-**** TODO Blog
-**** TODO Getting Started with tmux
-**** TODO
+*** DONE Writing
+    CLOSED: [2016-03-06 Sun 19:40]
+    - CLOSING NOTE [2016-03-06 Sun 19:40]
+**** DONE Blog
+     CLOSED: [2016-03-06 Sun 19:40]
+     - CLOSING NOTE [2016-03-06 Sun 19:40]
+**** DONE Getting Started with tmux
+     CLOSED: [2016-03-06 Sun 19:40]
+     - CLOSING NOTE [2016-03-06 Sun 19:40]
 *** TODO Miscellaneous
 **** TODO USPTO
 **** TODO Eagle Scout
@@ -73,7 +78,13 @@ VictorQuinn.com Redesign
 ** TODO Phone number?
 ** TODO Resume
 * TODO Possibly link to older versions?
-* TODO Deployment [0%]
-** TODO Deploy with Stout
+* DONE Deployment [100%]
+  CLOSED: [2016-03-06 Sun 19:40]
+  - CLOSING NOTE [2016-03-06 Sun 19:40]
+** DONE Deploy with Stout
+   CLOSED: [2016-03-06 Sun 19:40]
+   - CLOSING NOTE [2016-03-06 Sun 19:40]
    http://stout.is
-** TODO Deploy pre-release version to next.victorquinn.com
+** DONE Deploy pre-release version to next.victorquinn.com
+   CLOSED: [2016-03-06 Sun 19:40]
+   - CLOSING NOTE [2016-03-06 Sun 19:40]
