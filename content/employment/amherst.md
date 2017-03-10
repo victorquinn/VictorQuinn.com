@@ -7,7 +7,7 @@ role = "Web Programmer"
 summary = "Writing tools for educators and students to better collaborate and publish content"
 time = "2008 - 2012"
 title = "amherst"
-weight = 2
+weight = 3
 
 +++
 

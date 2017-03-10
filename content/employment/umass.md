@@ -7,7 +7,7 @@ role = "Senior Developer and Backup Systems Administrator"
 summary = "Writing custom software for internal processes and performing other sysadmin tasks"
 time = "2005 - 2008"
 title = "umass"
-weight = 3
+weight = 4
 
 +++
 
