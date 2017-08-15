@@ -7,7 +7,7 @@ role = "Director of Engineering"
 summary = "Leading teams of engineers at an e-commerce startup focused primarily on fashion"
 time = "2016 - Present"
 title = "spring"
-weight = 0
+weight = 1
 
 +++
 
