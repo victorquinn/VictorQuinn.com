@@ -6,7 +6,7 @@ repo = "sobriquet"
 summary = "The theme for this site! It's a Hugo theme tailored for this kind of content -- part portfolio, part site rendering cards for the relevant things."
 title = "sobriquet"
 user = "victorquinn"
-weight = 4
+weight = 40
 
 +++
 

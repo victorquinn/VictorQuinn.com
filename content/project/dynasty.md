@@ -7,7 +7,7 @@ summary = "Dynasty is a clean and simple Amazon DynamoDB client for Node with ba
 title = "dynasty"
 user = "victorquinn"
 repo = "dynasty"
-weight = 1
+weight = 10
 
 +++
 

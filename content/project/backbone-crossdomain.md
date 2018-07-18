@@ -6,7 +6,7 @@ summary = "An extension for Backbone.js with a Sync that adds support for IE 7-9
 title = "backbone crossdomain"
 repo = "Backbone.CrossDomain"
 user = "victorquinn"
-weight = 2
+weight = 20
 
 +++
 

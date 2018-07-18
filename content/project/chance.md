@@ -8,6 +8,6 @@ role = "Creator"
 title = "chance"
 user = "chancejs"
 repo = "chancejs"
-weight = 0
+weight = 1
 
 +++
