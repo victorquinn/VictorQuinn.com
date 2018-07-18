@@ -6,7 +6,7 @@ summary = "Batch Request is lightweight connect/express middleware for Node.js w
 title = "batch request"
 user = "socialradar"
 repo = "batch-request"
-weight = 3
+weight = 30
 
 +++
 
