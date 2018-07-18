@@ -7,7 +7,7 @@ role = "Senior Software Engineer"
 summary = "Led team to revolutionize the way campaign contributions are taken by the primary fundraising platform for the Democratic Party"
 time = "2012 - 2013"
 title = "ngpvan"
-weight = 2
+weight = 20
 
 +++
 

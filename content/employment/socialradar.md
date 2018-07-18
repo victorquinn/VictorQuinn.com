@@ -7,7 +7,7 @@ role = "VP of Engineering"
 summary = "Leading engineering at a startup focused on location technology"
 time = "2013 - 2016"
 title = "socialradar"
-weight = 1
+weight = 10
 
 +++
 
