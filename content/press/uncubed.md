@@ -1,6 +1,6 @@
 +++
 date = "2017-11-26T19:31:12-05:00"
-summary = "Short video produced in partnership with Uncubed "
+summary = "Short video produced in partnership with Uncubed showcasing how we used AWS to help scale for Black Friday traffic at Spring"
 title = "cover"
 weight = 1
 press_name = "How These Engineers Saved Black Friday"
